@@ -1,1 +1,1 @@
-Screenshot upload the solution of task 7 !!!
+Upload screenshot the solution of task 7 !!!
