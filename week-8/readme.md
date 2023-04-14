@@ -14,7 +14,7 @@
 
 ### 3. Created Auto Scaling Group:
 
-![Auto Scaling Group](https://i.ibb.co/vx8ZZ8J/ASG.png)
+![Auto Scaling Group](https://i.ibb.co/Jy2KvtF/ASG.png)
 
 
 ### 4. Automatic scaling policies
