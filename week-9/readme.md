@@ -1,4 +1,4 @@
-## Task-8 solution
+## TASK-8: Implement SSL Let's Encrypt, migrate to AWS SSM
 
 - [x] Kreiran DNS record dalibor-prastalo.awsbosnia.com pomoću mini skripte prizane na screenshotu,nakon čega je ispisan rekord u AWS Route53 zoni za imporovani CNAME.
 
