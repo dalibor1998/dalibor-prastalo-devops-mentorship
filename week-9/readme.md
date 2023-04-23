@@ -10,7 +10,7 @@
 mojoj EC2 instanci, na nivou target grupe omogućio sam forward saobraćaja sa porta HTTP 80 na port HTTPS 443, aplikacija uspješno aktivna sa SSL-om.
 
  ![img-2](/week-9/screenshots/AWS-cert-mngr.png)
- ![img-2](/week-9/screenshots/SSL_Lets_Encrypt.png)
+ ![img-3](/week-9/screenshots/SSL_Lets_Encrypt.png)
 
 - [x] Omogućen autorenewal SSL certifikata gdje je kreiran cronjob putem skripte sa sajta koji smo pomenuli tokom office hours https://eff-certbot.readthedocs.io/en/stable/using.html#setting-up-automated-renewal
 
@@ -22,10 +22,10 @@ mojoj EC2 instanci, na nivou target grupe omogućio sam forward saobraćaja sa p
 
 - openssl s_client -showcerts -servername dalibor-prastalo.awsbosnia.com -connect dalibor-prastalo.awsbosnia.com:443 2>/dev/null | openssl x509 -inform pem -noout -text`
 
- ![img-3](/week-9/screenshots/open_SSL.png)
+ ![img-4](/week-9/screenshots/open_SSL.png)
 
 
 - [x] Kreiran AMI image pod nazivom ami-ec2-dalibor-prastalo-task-8.
 
- ![img-2](/week-9/screenshots/AMI_image.png)
+ ![img-5](/week-9/screenshots/AMI_image.png)
 
