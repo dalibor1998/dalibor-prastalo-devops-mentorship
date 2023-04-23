@@ -12,7 +12,7 @@ mojoj EC2 instanci, na nivou target grupe omogućio sam forward saobraćaja sa p
  ![img-2](/week-9/screenshots/AWS-cert-mngr.png)
  ![img-2](/week-9/screenshots/SSL_Lets_Encrypt.png)
 
-- [x] Omogućen autorenewal SSL certifikata gdje je kreiran cronjob putem skripte https://eff-certbot.readthedocs.io/en/stable/using.html#setting-up-automated-renewal
+- [x] Omogućen autorenewal SSL certifikata gdje je kreiran cronjob putem skripte sa sajta koji smo pomenuli tokom office hours https://eff-certbot.readthedocs.io/en/stable/using.html#setting-up-automated-renewal
 
 -  Skripta 
     - SLEEPTIME=$(awk 'BEGIN{srand(); print int(rand()*(3600+1))}'); echo "0 0,12 * * * root sleep $SLEEPTIME && certbot renew -q" | sudo tee -a /etc/crontab > /dev/null 
